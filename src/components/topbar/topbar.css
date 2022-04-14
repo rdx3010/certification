@@ -1,0 +1,104 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+.topbarWrapper{
+    /* height: 100%; */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+    justify-content: space-between;
+
+
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: 10px;
+    border-radius: 0em;
+
+
+}
+
+.topiconbadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topAvathar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.topheader{
+    
+      background-image: linear-gradient(#0dccea, #a8c8ef);
+      border: 0;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: Montserrat,sans-serif;
+      font-size: .9em;
+      margin: 5px;
+      padding: 5px 5px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+    

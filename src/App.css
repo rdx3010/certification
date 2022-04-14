@@ -1,0 +1,14 @@
+.contain{
+  display: flex;
+  margin-top:10px;
+  margin:0;
+  /* margin-left: 0%; */
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+
+}
+.hello{
+  position: sticky;
+}
